@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Fiesta",
+    "color": "Vermelho",
+    "brand": "ford",
+    "category": "hatch",
+    "price": 38000,
+    "img": "https://www.vhv.rs/dpng/d/475-4759596_ford-fiesta-hd-png-download.png"
+  },
+  {
+    "name": "Etios",
+    "color": "Vermelho",
+    "brand": "Toyota",
+    "category": "hatch",
+    "price": "42000",
+    "img": "https://revistacarro.com.br/wp-content/uploads/2018/05/toyota_etios_1.3_aut_._.png"
+  },
+  {
+    "name": "Siena",
+    "color": "Prata",
+    "brand": "Fiat",
+    "category": "Sedan",
+    "price": "25000",
+    "img": "http://2.bp.blogspot.com/-XwXPYFGMmE8/U9AyrewbAZI/AAAAAAABay0/NUraYSlMKVU/s1600/Fiat-Grand-Siena-Italia-2015+(3).jpg"
+  }
+]
