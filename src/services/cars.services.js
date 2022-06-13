@@ -16,12 +16,11 @@ class CarsServices {
     return selectedCar;
   }
   //create
-  async createCar({ name, color, brand, price, category, img }) {
+  async createCar({ name, color, brand, category, img }) {
     const newCar = {
       name,
       color,
       brand,
-      price,
       category,
       img,
     };
@@ -30,12 +29,11 @@ class CarsServices {
     return car;
   }
   //update
-  async updateCar({ name, color, brand, price, category, img, id }) {
+  async updateCar({ name, color, brand, category, img, id }) {
     const updatedCar = {
       name,
       color,
       brand,
-      price,
       category,
       img,
       id,

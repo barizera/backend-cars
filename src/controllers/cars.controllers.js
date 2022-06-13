@@ -23,14 +23,13 @@ class CarsControllers {
   }
   //create
   async createCar(req, res) {
-    const { name, color, brand, price, category, img } = req.body;
+    const { name, color, brand, category, img } = req.body;
 
     try {
       const newCar = await carsServices.createCar({
         name,
         color,
         brand,
-        price,
         category,
         img,
       });
@@ -44,7 +43,7 @@ class CarsControllers {
   }
   //update
   async updateCar(req, res) {
-    const { name, color, brand, price, category, img } = req.body;
+    const { name, color, brand, category, img } = req.body;
     const id = req.params.id;
 
     try {
@@ -52,7 +51,6 @@ class CarsControllers {
         name,
         color,
         brand,
-        price,
         category,
         img,
         id,

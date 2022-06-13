@@ -11,6 +11,6 @@ app.get("", (req, res) => {
   return res.send("Olá Dev");
 });
 
-app.use("/carros", route);
+app.use("/cars", route);
 
 export default app;
